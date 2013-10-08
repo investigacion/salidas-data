@@ -1,0 +1,49 @@
+{
+	"name": "salidas-costa-rica",
+	"datapackage_version": "1.0-beta.5",
+	"title": "Salidas de costarricenses al extranjero",
+	"description": "Consulte en esta base de datos, las salidas de ciudadanos de Costa Rica (por avión y tierra) efectuadas por mes desde enero de 2003.",
+	"version": "0.0.1",
+	"keywords": [
+		"costa rica",
+		"emigration",
+		"emigración"
+	],
+	"licenses": [
+		{
+			"id": "odc-by",
+			"url": "http://opendatacommons.org/licenses/by/1.0/",
+			"name": "Open Data Commons Attribution License",
+			"version": "1.0"
+		}
+	],
+	"sources": [
+		{
+			"name": "Dirección de Migración y Extranjería",
+			"web": "http://www.migracion.go.cr/"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Hassel Fallas",
+			"email": "hassel.fallas@nacion.com"
+		}
+	],
+	"maintainers": [
+		{
+			"name": "Matthew Caruana Galizia",
+			"email": "m@m.cg",
+			"web": "http://m.cg/"
+		}
+	],
+	"resources": [
+		{
+			"path": "data/csv/salidas.csv",
+			"format": "csv"
+		},
+		{
+			"path": "data/xlsx/salidas.xlsx",
+			"format": "xlsx"
+		}
+	]
+}
